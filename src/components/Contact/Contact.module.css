@@ -1,0 +1,39 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.deleteBtn {
+  padding: 6px;
+  font-size: 12px;
+  width: 50px;
+  height: 30px;
+  background-color: lightgray;
+}
+
+.deleteBtn:hover {
+  background-color: #fb3f13;
+}
+
+.contactInfo {
+  font-size: 12px;
+}
+
+.contactInfo p {
+  text-align: left;
+}
+
+.icon {
+  color: #3a5545;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
